@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #333;
+    color: #fff;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+}
+
+footer p {
+    margin: auto;
+}
+
+#carres {
+    position: relative;
+    height: 90vh;
+    background-color: #eee;
+}
+
+.carre {
+    position: absolute;
+    border-radius: 10px;
+}
+
+.cercle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
